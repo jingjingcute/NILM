@@ -114,7 +114,7 @@ TRAIN = {
     "lambda_physics": 0.1,   # 物理守恒损失权重
     "val_ratio":      0.1,   # 验证集比例
     "seed":            42,
-    "num_workers":      4,
+    "num_workers":      0,
     "save_dir":     "./checkpoints",
     "log_dir":      "./logs",
 }
